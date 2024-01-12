@@ -28,7 +28,7 @@ class Chatbot:
     return res
 
 def main():
-  openai_key = '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'
+  # openai_key = ''
   os.environ['OPENAI_API_KEY'] = openai_key
 
   st.title("Find a Recipe")
